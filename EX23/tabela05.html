@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Seco</th>
+            <th scope="col">Idade</th>
+            <td scope="col">Profissão</td>
+        </tr>
+        <tr>
+            <td>Esther</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Programador</td>
+        </tr>
+        <tr class="destaque">
+            <td>Marcos</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>carlos André</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Programador de produção</td>
+        </tr>
+
+        <tr>
+            <td>Daniela</td>
+            <td>f</td>
+            <td>38</td>
+            <td>Inpetora de Qualidade</td>
+        </tr>
+        <tr>
+            <td>Caroline</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Gerente</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
