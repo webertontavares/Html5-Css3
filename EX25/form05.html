@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexm">
+            <label for="isexm">Masculino</label><br>
+            <input type="radio" name="sexo" id="isexf">
+            <label for="isexf">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Tipos de filmes</legend>
+            <input type="checkbox" name="filmes" id="ifilmes">
+            <label for="iterror">Terror</label><br>
+            
+            <input type="checkbox" name="acao" id="icao">
+            <label for="iacao">Ação</label><br>
+
+            <input type="checkbox" name="romance" id="iromance">
+            <label for="iromance">Romance</label><br>
+
+            <input type="checkbox" name="comedia" id="icomedia">
+            <label for="icomedia">Comedia</label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+    
+</body>
+</html>
